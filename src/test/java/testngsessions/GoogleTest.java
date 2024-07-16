@@ -19,4 +19,10 @@ public class GoogleTest extends TestngBaseTest {
 		By searchBox = By.xpath(null);
 		driver.findElement(searchBox);
 	}
+	
+	@Test
+	public void verifySearch2() {
+		By searchBox = By.xpath(null);
+		driver.findElement(searchBox);
+	}
 }
